@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+    <div id="main-container" class="centered-flex"> 
+        <div class="form-container"> 
+        <div class="icon centered-flex">
+        <i class="fa fa-user"></i>
+        </div> 
+        <div class="title">CONECTE-SE</div> 
+        <form id="login-form" class="centered-flex"> 
+        <div class="msg">
+        </div> 
+        <div class="field"> 
+        <input type="text" minlength="4" placeholder="Username" id="uname"> 
+        <i class="fa fa-user"></i> 
+        </div> 
+        <div class="field"> <input type="password" placeholder="Password" id="pass"> 
+        <i class="fa fa-lock"></i> 
+        </div> 
+        <div class="action centered-flex"> 
+        <label for="remember" class="centered-flex"> 
+        <input type="checkbox" id="remember"> Lembre de mim</label> 
+        <a href="#">Esqueceu a senha?</a> </div> 
+        <div class="btn-container">
+        <button id="btn">Conectar</button>
+        </div> 
+        <div class="signup">Não tem uma Conta?<a href="#">Inscreva-se</a>
+        </div> 
+        </form> 
+        </div> 
+        </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>
